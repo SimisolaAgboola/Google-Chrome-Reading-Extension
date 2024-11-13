@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ReadingExtension",
+    "version": "1.0",
+    "author": "SimisolaAgboola",
+    "description": "Emboldens the first few letters of every word on a webpage for easier and faster reading.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": ["storage","activeTab", "scripting", "declarativeContent"]
+}
